@@ -3,7 +3,7 @@ const app = express();
 
 const db = {
     'lorem': {
-        peers: ['ws://localhost:3000']
+        peers: ['ws://localhost:3001']
     }
 }
 

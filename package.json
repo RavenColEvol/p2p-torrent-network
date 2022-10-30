@@ -5,6 +5,9 @@
   "main": "peer.js",
   "type": "module",
   "scripts": {
+    "tracker": "nodemon tracker.js",
+    "client": "PORT=3000 DOWNLOAD_PATH=./example/client nodemon peer.js",
+    "peer-1": "PORT=3001 DOWNLOAD_PATH=./example/peer nodemon peer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +16,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^3.2.10",
-    "socket.io": "^4.5.3"
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
   }
 }

@@ -1,0 +1,8 @@
+{
+    "tracker_server_location": "http://localhost:5001/lorem",
+    "file_details": {
+        "name": "lorem.txt",
+        "length": 3090,
+        "pieces": 10
+    }
+}
